@@ -12,3 +12,11 @@ Stride: the distance, in pixels, separating each extracted tile. Unlike with con
 
 ## 4.Fully Connected Layers
 ![avatar](https://developers.google.cn/machine-learning/practica/image-classification/images/cnn_architecture.svg)
+
+
+
+## Data augmentation: 
+artificially boosting the diversity and number of training examples by performing random transformations to existing images to create a set of new variants (see Figure 7). Data augmentation is especially useful when the original training data set is relatively small.
+![avatar](https://developers.google.cn/machine-learning/practica/image-classification/images/data_augmentation.png)
+## Dropout regularization: 
+Randomly removing units from the neural network during a training gradient step.
